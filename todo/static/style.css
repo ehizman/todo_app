@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#todo-text {
+  width: 80%;
+  padding: 10px;
+}
+
+#submit-todo {
+  width: 17%;
+  padding: 10px;
+  background: lightgreen;
+  border-color: lightgreen;
+  border-radius: 10px;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.update {
+  background: yellow;
+  border-color: yellow;
+}
+
+.delete {
+  background: red;
+  border-color: red;
+  color: white;
+}
+
+.task {
+  width: 50%;
+  text-align: left;
+}
+
+.flash-message {
+  padding: 10px;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
